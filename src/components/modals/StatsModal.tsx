@@ -13,7 +13,7 @@ interface StatsModalProps {
     winRate?: number;
     currentStreak?: number;
     maxStreak?: number;
-    maxStreak?: number;
+
     distribution?: number[];
     isDaily?: boolean;
     onNewGame?: () => void;
