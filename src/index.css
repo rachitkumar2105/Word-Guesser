@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --color-space-deep: #030712;
+  --color-space-light: #1e293b;
+  --color-space-accent: #00d0ff;
+  --color-space-success: #4ade80;
+  --color-space-warning: #facc15;
+  --color-space-error: #9ca3af;
+}
+
+@layer base {
+  body {
+    @apply bg-space-deep text-white h-screen overflow-hidden;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+}
+
+/* Custom Scrollbar for modals */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 4px;
+}
