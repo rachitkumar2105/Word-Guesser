@@ -58,6 +58,22 @@ A modern, space-themed reimagining of the classic word game. Play the daily chal
     -   ⬛ **Gray**: The letter is not in the word.
 3.  **Modes**: Toggle between "Daily" and "Unlimited" at the top of the screen.
 
+## 🚀 Deployment (Render)
+
+This project is configured for deployment on [Render](https://render.com/).
+
+1.  Sign up/Log in to Render.
+2.  Click **New +** -> **Static Site**.
+3.  Connect your GitHub repository (`Word-Guesser`).
+4.  Render will automatically detect the settings:
+    -   **Build Command**: `npm install && npm run build`
+    -   **Publish Directory**: `dist`
+5.  Click **Create Static Site**.
+6.  **Important**: If you didn't use the `render.yaml` blueprint, ensure you add a Rewrite Rule in settings:
+    -   **Source**: `/*`
+    -   **Destination**: `/index.html`
+    -   **Action**: `Rewrite`
+
 ## 🤝 Contributing
 
 Contributions are welcome! Feel free to open issues or submit pull requests.
