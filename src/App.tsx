@@ -53,7 +53,7 @@ function GameContent() {
   }
 
   return (
-    <div className="flex flex-col h-screen w-full relative overflow-hidden">
+    <div className="flex flex-col h-[100dvh] w-full relative overflow-hidden">
       <Header
         isDaily={isDaily}
         toggleMode={() => setIsDaily(!isDaily)}
@@ -61,12 +61,12 @@ function GameContent() {
       />
 
       <main className="flex-grow flex flex-col items-center justify-center min-h-0 p-2 relative z-10">
-        <div className="w-full max-w-[300px] sm:max-w-[350px] aspect-[5/6] max-h-[50vh]">
+        <div className="w-full max-w-[300px] sm:max-w-[350px] aspect-[5/6] max-h-full">
           <Grid currentGuess={currentGuess} guesses={guesses} turn={turn} />
         </div>
       </main>
 
-      <div className="p-1 sm:p-2 pb-4 z-10 relative flex-shrink-0">
+      <div className="p-1 sm:p-2 pb-2 sm:pb-4 z-10 relative flex-shrink-0">
         <div className="w-full max-w-[600px] mx-auto">
           <Keyboard onChar={(key) => handleKeyup({ key })} onDelete={() => handleKeyup({ key: 'Backspace' })} onEnter={() => handleKeyup({ key: 'Enter' })} usedKeys={usedKeys} />
         </div>
