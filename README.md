@@ -65,7 +65,7 @@ This project is configured for deployment on [Render](https://render.com/).
 1.  Sign up/Log in to Render.
 2.  Click **New +** -> **Web Service** (not Static Site).
 3.  Connect your GitHub repository (`Word-Guesser`).
-4.  Render will automatically detect the **Docker** environment.
+4.  Render will automatically detect the **Docker** environment (via `Dockerfile`).
 5.  Click **Create Web Service**.
 
 ## 🤝 Contributing
