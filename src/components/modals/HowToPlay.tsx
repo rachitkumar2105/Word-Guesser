@@ -3,7 +3,7 @@ import { Tile } from '../game/Tile';
 export const HowToPlay = () => {
     return (
         <div className="space-y-4 text-gray-300">
-            <p>Guess the <span className="font-bold text-white">WORDLE</span> in 6 tries.</p>
+            <p>Guess the <span className="font-bold text-white">WORD GUESSER</span> in 6 tries.</p>
 
             <ul className="list-disc pl-5 space-y-1 text-sm">
                 <li>Each guess must be a valid 5-letter word.</li>

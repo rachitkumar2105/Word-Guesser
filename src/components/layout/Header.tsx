@@ -21,7 +21,7 @@ export const Header = ({ isDaily, toggleMode, onOpenModal }: HeaderProps) => {
                 {/* Center Title */}
                 <div className="flex items-baseline space-x-2 select-none absolute left-1/2 -translate-x-1/2 md:static md:translate-x-0">
                     <h1 className="text-2xl sm:text-3xl font-black tracking-wider bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-500 font-sans">
-                        WORDLE
+                        WORD GUESSER
                     </h1>
                     <span className="text-[10px] sm:text-xs font-semibold tracking-[0.3em] text-gray-400 hidden sm:inline-block">
                         SPACE

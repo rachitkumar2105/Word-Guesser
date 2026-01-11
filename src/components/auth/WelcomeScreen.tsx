@@ -20,7 +20,7 @@ export const WelcomeScreen = () => {
                 <div className="flex items-center justify-center space-x-2 mb-2">
                     <Rocket className="text-cyan-400" size={32} />
                     <h1 className="text-4xl font-black tracking-wider bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-500">
-                        WORDLE
+                        WORD GUESSER
                     </h1>
                 </div>
                 <p className="text-gray-400 tracking-widest text-sm">Save your progress across devices</p>

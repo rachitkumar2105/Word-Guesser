@@ -1,4 +1,4 @@
-# Wordle Space 🚀
+# Word Guesser 🚀
 
 A modern, space-themed reimagining of the classic word game. Play the daily challenge or practice endlessly with unlimited mode, all set against a tranquil, animated galaxy.
 
